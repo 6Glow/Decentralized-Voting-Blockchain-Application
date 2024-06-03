@@ -1,0 +1,169 @@
+# Ignore node_modules directory, which contains installed packages
+node_modules/
+
+# Ignore log files
+*.log
+
+# Ignore build output directories
+dist/
+build/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore environment variable files
+.env
+.env.local
+
+# Ignore IDE/editor specific files and directories
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# Ignore npm debug files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Ignore temporary files created during development
+*.tmp
+*.swp
+*.swo
+
+# Ignore dependency directory for front-end projects
+bower_components/
+
+# Ignore coverage reports
+coverage/
+
+# Ignore compiled files
+*.out
+*.class
+*.pyc
+*.pyo
+*.o
+*.so
+
+# Ignore temporary files created by OS
+*.bak
+*.tmp
+
+# Ignore SASS cache files
+.sass-cache/
+
+# Ignore local and sensitive data
+*.local
+*.secret
+
+# Ignore eslint cache
+.eslintcache
+
+# Ignore parcel cache
+.cache/
+
+# Ignore logs and error reports from ESLint and Prettier
+eslint_debug.log
+prettier_error.log
+
+# Ignore miscellaneous files
+*.log
+
+# Ignore AWS SAM build artifacts
+.aws-sam/
+
+# Ignore JetBrains Rider files
+.idea/
+.idea_modules/
+
+# Ignore macOS specific files
+.DS_Store
+
+# Ignore Windows specific files
+Thumbs.db
+Desktop.ini
+
+# Ignore intelliJ project specific files
+*.iml
+.idea/
+
+# Ignore JetBrains IDEs
+# https://intellij-support.jetbrains.com/hc/en-us/articles/206544839
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# Ignore React Native files
+.expo/
+.expo-shared/
+
+# Ignore the bundler cache
+/vendor/bundle
+
+# Ignore Sphinx documentation build
+/docs/_build/
+
+# Ignore Jekyll build
+/_site/
+
+# Ignore GitHub Pages build
+/.jekyll-cache/
+
+# Ignore hexo build
+/public/
+
+# Ignore Hugo build
+/public/
+
+# Ignore dotenv files
+.env
+.env.*
+
+# Ignore temporary files created by the OS or development tools
+tmp/
+temp/
+
+# Ignore the compiled Python files
+*.pyc
+*.pyo
+__pycache__/
+
+# Ignore Rust files
+/target/
+
+# Ignore Rails specific files
+*.rbc
+*.sass-cache
+*.byebug_history
+.ruby-gemset
+.ruby-version
+.rspec
+/log/*
+/tmp/*
+/db/*.sqlite3
+/db/*.sqlite3-journal
+/public/system/*
+/coverage/
+/spec/tmp/*
+/capybara-*.html
+/rspec-*.html
+/.bundle
+/vendor/bundle
+/vendor/cache
+/vendor/assets/bower_components
+/vendor/assets/node_modules
+
+# Ignore Vagrant files
+.vagrant/
+
+# Ignore log files
+log/
+*.log
+
+# Ignore temp files
+tmp/
+temp/

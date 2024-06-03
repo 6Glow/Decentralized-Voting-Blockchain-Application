@@ -1,0 +1,20 @@
+{
+  "name": "decentralized-voting-blockchain-application",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@nomicfoundation/hardhat-ethers": "^3.0.6",
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "dotenv": "^16.4.5",
+    "ethers": "^6.12.2"
+  },
+  "devDependencies": {
+    "hardhat": "^2.22.5"
+  }
+}
